@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'Hel-bold';
+	src:url(fonts/HelveticaNeueLTPro-Bd.otf);
+	font-weight:bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Hel-Thin';
+	src:url(fonts/HelveticaNeueLTPro-Th.otf);
+}
+.main {
+	width:100%;
+	margin:0px auto;
+	max-width:630px;
+}
+.row {
+	margin-bottom:10px;
+}
+#hlabel {
+	font-family: 'Hel-bold';
+	font-size:140px;
+	font-weight:bold;
+	text-align:center;
+	line-height:80px;
+	color:#C69;
+}
+
+#slabel {
+	font-family: 'Hel-Thin';
+	font-size:32px;
+	text-align:center;
+	letter-spacing: 28px;
+	line-height:10px;
+	color:#333;
+}
+
+.bg-warning {
+	height:50px;
+	vertical-align:middle;
+}
+
+.disappear {
+	display:none;
+}

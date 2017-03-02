@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image:url(../images/ps_neutral.png);
+	background-repeat:repeat-x repeat-y;
+	background-attachment:fixed;
+}
+div.main{
+	margin:0px auto;
+	margin-top:20px;
+	width:960px;
+	height:auto;
+}
+div.tab{
+	padding-top:20px;
+	width:600px;
+	margin:0px auto;
+	height:auto;
+}
+.header{
+	background-color:#444;
+	color:#fff;
+}
+.disappear{
+	display:none
+}
